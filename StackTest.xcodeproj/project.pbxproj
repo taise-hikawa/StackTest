@@ -15,6 +15,8 @@
 		D3C08B8E2518A17F004D1248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C08B8C2518A17F004D1248 /* LaunchScreen.storyboard */; };
 		D3C08B992518A17F004D1248 /* StackTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08B982518A17F004D1248 /* StackTestTests.swift */; };
 		D3C08BA42518A17F004D1248 /* StackTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C08BA32518A17F004D1248 /* StackTestUITests.swift */; };
+		D3D5BFC62518D67400D1A574 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5BFC42518D67400D1A574 /* ImageCollectionViewCell.swift */; };
+		D3D5BFC72518D67400D1A574 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D5BFC52518D67400D1A574 /* ImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D3C08B9F2518A17F004D1248 /* StackTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C08BA32518A17F004D1248 /* StackTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTestUITests.swift; sourceTree = "<group>"; };
 		D3C08BA52518A17F004D1248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D5BFC42518D67400D1A574 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		D3D5BFC52518D67400D1A574 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				D3C08B812518A178004D1248 /* AppDelegate.swift */,
 				D3C08B832518A178004D1248 /* SceneDelegate.swift */,
 				D3C08B852518A178004D1248 /* ViewController.swift */,
+				D3D5BFC42518D67400D1A574 /* ImageCollectionViewCell.swift */,
+				D3D5BFC52518D67400D1A574 /* ImageCollectionViewCell.xib */,
 				D3C08B872518A178004D1248 /* Main.storyboard */,
 				D3C08B8A2518A17F004D1248 /* Assets.xcassets */,
 				D3C08B8C2518A17F004D1248 /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			files = (
 				D3C08B8E2518A17F004D1248 /* LaunchScreen.storyboard in Resources */,
 				D3C08B8B2518A17F004D1248 /* Assets.xcassets in Resources */,
+				D3D5BFC72518D67400D1A574 /* ImageCollectionViewCell.xib in Resources */,
 				D3C08B892518A178004D1248 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				D3C08B862518A178004D1248 /* ViewController.swift in Sources */,
 				D3C08B822518A178004D1248 /* AppDelegate.swift in Sources */,
+				D3D5BFC62518D67400D1A574 /* ImageCollectionViewCell.swift in Sources */,
 				D3C08B842518A178004D1248 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
